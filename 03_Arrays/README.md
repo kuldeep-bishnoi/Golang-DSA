@@ -1,6 +1,6 @@
 # Arrays in Golang
 
-## 📖 Simple Explanation
+## Simple Explanation
 
 Think of an array like a row of mailboxes in an apartment building. Each mailbox has a unique number (index), and you can put something inside each one (a value). To find something, you need to know which mailbox number to look in.
 
@@ -13,7 +13,7 @@ Values: │ 10 │ 20 │ 30 │ 40 │ 50 │
 
 Arrays in Go have a fixed size, which means once you create them, you can't add more mailboxes. If you need a flexible size, you'll want to use slices (which we'll also cover here).
 
-## 🔑 Key Concepts
+## Key Concepts
 
 - **Fixed Size**: Arrays in Go have a fixed length that cannot change after declaration
 - **Zero-Based Indexing**: The first element is at index 0, not 1
@@ -21,7 +21,7 @@ Arrays in Go have a fixed size, which means once you create them, you can't add 
 - **Memory Allocation**: Arrays are stored in contiguous memory locations
 - **Slices**: Go's dynamic arrays, built on top of arrays with flexible size
 
-## 💻 Basic Implementation in Go
+## Basic Implementation in Go
 
 ### Arrays
 
@@ -81,7 +81,7 @@ func main() {
 }
 ```
 
-## ⏱️ Time and Space Complexity
+## Time and Space Complexity
 
 | Operation | Array | Slice | Time Complexity | Space Complexity | Explanation |
 |-----------|-------|-------|----------------|-----------------|-------------|
@@ -157,7 +157,7 @@ func maxSumSubarray(arr []int, k int) int {
 }
 ```
 
-## 🔍 Real-World Applications
+## Real-World Applications
 
 1. **Image Processing**: Images are represented as 2D arrays of pixels
 2. **Spreadsheet Applications**: Data in Excel-like applications is stored in 2D arrays
@@ -234,7 +234,7 @@ func max(a, b int) int {
 **Time Complexity**: O(n)
 **Space Complexity**: O(1)
 
-## 💪 Practice Problems
+## Practice Problems
 
 1. **Easy**: [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) - Check if array contains duplicates
 2. **Easy**: [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) - Find the maximum profit
@@ -242,7 +242,7 @@ func max(a, b int) int {
 4. **Medium**: [3Sum](https://leetcode.com/problems/3sum/) - Find all unique triplets that sum to zero
 5. **Hard**: [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) - Calculate how much water can be trapped
 
-## 📚 Additional Resources
+## Additional Resources
 
 - [Go Tour: Arrays](https://tour.golang.org/moretypes/6) - Official Go tutorial on arrays
 - [Go Tour: Slices](https://tour.golang.org/moretypes/7) - Official Go tutorial on slices
@@ -250,7 +250,7 @@ func max(a, b int) int {
 - [Go by Example: Arrays](https://gobyexample.com/arrays) - Practical examples of arrays in Go
 - [Go by Example: Slices](https://gobyexample.com/slices) - Practical examples of slices in Go
 
-## 📝 Exercises
+## Exercises
 
 1. Implement a function that reverses an array in-place
 2. Create a function that merges two sorted arrays into a single sorted array
